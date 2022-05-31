@@ -53,7 +53,7 @@ app.use((err, req, res, next) => {
 
 mongoose
   .connect(
-    "mongodb+srv://anonymous:anonymous@cluster0.3hdvk.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://zim:zim@cluster0.pacotmg.mongodb.net/?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
